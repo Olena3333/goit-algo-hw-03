@@ -1,3 +1,0 @@
-Olena
-cd /Users/helensolonikova/Desktop/Python/goit-algo-hw-03
-python3 Exercise1.py test_src output
