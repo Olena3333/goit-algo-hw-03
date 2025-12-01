@@ -11,7 +11,7 @@ python3 Exercise1.py <source_dir> [destination_dir]
 
 📌 Приклади запуску
 ❗ Використання директорії призначення за замовчуванням
-python3 Exercise1.py test_src
+python3 exercise1.py test_src
 
 
 Файли будуть скопійовані у:
@@ -24,4 +24,4 @@ dist/
    ...
 
 ❗ З вказаною директорією призначення
-python3 Exercise1.py test_src output
+python3 exercise1.py test_src output

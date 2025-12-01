@@ -10,11 +10,11 @@ def copy_files_recursive(src_dir, dst_dir):
     """
     try:
         for entry in os.scandir(src_dir):
-            # Якщо елемент – директорія: рекурсивно заходимо
+            # Якщо елемент  директорія: рекурсивно заходимо
             if entry.is_dir():
                 copy_files_recursive(entry.path, dst_dir)
 
-            # Якщо елемент – файл: копіюємо
+            # Якщо елемент  файл: копіюємо
             elif entry.is_file():
                 try:
                     # Отримуємо розширення файлу
